@@ -1,0 +1,112 @@
+html, body {
+   height: 100%;
+}
+
+body {
+  background:lightslategrey ;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+text-transform:uppercase;
+line-height: 1.5;
+font-family: 'Indie Flower', cursive;
+colour
+}
+h1, h2 {
+  font family:cursive;
+  text-transform: uppercase
+  class="profile"
+}
+
+header,nav,main {
+ padding: 05px 05px;
+}
+.profile-img {
+ float: left;
+ margin-right: 60px;
+}
+
+blockquote {
+   border: 1px solid black;
+   clear: both;
+   padding 20px 50px;
+   text-align: center;
+}
+blockquote p {
+   font-size: 24px;
+   font-family: 'Libre Barcode 39 Text', cursive;
+}
+
+header{
+   background: skyblue
+   float: left;
+}
+footer {
+  border: 1px solid #b4d455;
+}
+
+nav a{
+  padding: 10px 20px;
+}
+
+.home {
+   background-image:
+    url('../images/galaxy.jpg');
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+}
+
+footer {
+  background: palevioletred;
+  text-align: center;
+  padding: 1px;
+}
+
+/* CONTACT STYLES
+-----------------------------------------*/
+form {
+  width: 400px;
+}
+input,
+textarea {
+  border: 1px solid #BF6D50;
+  width: 400px;
+  margin-bottom: 10px;
+}
+input {
+  height: 20px;
+}
+textarea {
+  height: 100px;
+}
+button {
+  background: #BF6D50;
+  border: none;
+  padding: 10px 40px;
+  font-size: 16px;
+}
+/* FOOTER STYLES
+-----------------------------------------*/
+/* Sticky Footer - http://css-tricks.com/snippets/css/sticky-footer */
+.page-wrap {
+  min-height: 100%;
+  margin-bottom: -55px; /* must be the same height as footer */
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+footer,
+.page-wrap:after {
+  height: 55px; /* however tall you want the footer to be */
+}
+
+.about {
+  background-image: url ('../images/inter.jpg');
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+}
